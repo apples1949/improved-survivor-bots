@@ -26,16 +26,16 @@ jobs:
           - windows-latest
 
         sm_version:
-          - "1.12"
+          - "1.11"
 
         mm_version:
-          - "1.12"
+          - "1.11"
 
         include:
-          - mm_version: "1.12"
+          - mm_version: "1.11"
             mm_branch: "master"
 
-          - sm_version: "1.12"
+          - sm_version: "1.11"
             sm_branch: "master"
 
           - os: ubuntu-20.04
