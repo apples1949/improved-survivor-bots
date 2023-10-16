@@ -36,7 +36,7 @@ jobs:
             mm_branch: "master"
 
           - sm_version: "1.11"
-            sm_branch: "master"
+            sm_branch: "1.11-dev"
 
           - os: ubuntu-20.04
             os_short: linux
